@@ -12,8 +12,7 @@ If successful, the Ubuntu window will prompt a *"Installation successful!"* mess
 The update command is used to resynchronize the package index files from their sources on Ubuntu Linux through the internet.
 
 4. On your Linux command line, type `sudo apt upgrade` and after type in your password. This
-The upgrade command is used to install the newest versions of all packages currently installed on the Ubuntu system.   
-*Note: Update and upgrade often to get the latest versions of your packages installed to your Ubuntu.*
+The upgrade command is used to install the newest versions of all packages currently installed on the Ubuntu system. *Note: Update and upgrade often to get the latest versions of your packages installed to your Ubuntu.*
 
 5. Navigate through the Window System on Ubuntu.
 After the update and upgrade, 
@@ -25,7 +24,7 @@ After the update and upgrade,
 
             michelle@DESKTOP-CMCCIPC:/home$ cd ..
            
-   3. Type `ls` 
+   3. Type `ls` (this is displaying your folders in your Window System)
 
             michelle@DESKTOP-CMCCIPC:/$ ls 
             bin   dev  home  lib    lib64   media  opt   root  sbin  srv  tmp  var
@@ -60,21 +59,20 @@ After the update and upgrade,
 
             michelle@DESKTOP-CMCCIPC:/mnt/c$ cd Users
             
-   9. Type `ls` (This is displaying your folders in your Window System)
+   9. Type `ls` 
 
             'All Users'   Default  'Default User'   Michelle    Public   desktop.ini
 
-   10. From here, navigate to your Programming Languages folder
+   10. From here, navigate to your Programming Languages folder.
 
 6. In your Programming Languages folder, 
-   1. Type `sudo apt install haskell-platform` and after type in your password
-   2. Type `sudo apt install haskell-stack` and after type in your password 
+   1. Type `sudo apt install haskell-platform` and after type in your password.
+   2. Type `sudo apt install haskell-stack` and after type in your password.
    Note: Ubuntu package for Ubuntu 16.10 and up, the Stack version might lag so type `stack upgrade` after you finish install it.
 
-7. To download BNFC 
-In your Programming Languages folder,
-     1. Type `stack install BNFC` or `cabal install BNFC`
-     2. Type `sudo apt install make`
+7. To download BNFC in your Programming Languages folder,
+     1. Type `stack install BNFC` or `cabal install BNFC`.
+     2. Type `sudo apt install make`.
  
      
 Cited Resources: <br>
