@@ -44,7 +44,7 @@ After the update and upgrade,
 
            michelle@DESKTOP-CMCCIPC:/mnt$ cd c
            
-   7. Type ls 
+   7. Type `ls`
 
            michelle@DESKTOP-CMCCIPC:/mnt/c$ ls 
            '$Recycle.Bin'             PerfLogs                     Xilinx
