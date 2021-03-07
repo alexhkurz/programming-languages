@@ -90,9 +90,13 @@ I would let the modern history of programming languages begin with Fortran and L
 
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
+- Why does GoLang have objects but no inheritance?
+
+- What makes a programming language successful? This question is discussed in the video [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) He concludes with several arguments why FP might be the norm in the future for example searching for books on ["functional programming in"](https://www.amazon.com/s?k=%22functional+programming+in%22&ref=nb_sb_noss_2) suggests that many imperative and OO languages are keen on jumping on the FP train. What do you think?
+
 - Domain Specific Languages (DSLs) play an increasing role in industry. Haskell is a good language to develop DSLs. For an example see [Ivory](https://raw.githubusercontent.com/GaloisInc/smaccmpilot-experiencereport/master/embedded-experience.pdf).
 
-- [the No-Code Software Revolution](https://medium.com/inc./welcome-to-the-no-code-software-revolution-6b75ee967df7). Will building apps without writing code change what we understand by "programming language"?
+- The [No-Code Software Revolution](https://medium.com/inc./welcome-to-the-no-code-software-revolution-6b75ee967df7). Will building apps without writing code change what we understand by "programming language"?
 
 - [rise4fun](https://rise4fun.com/) has a long list of **software engineering tools** for program analysis and verification that you can run in your webbrowser.
 
@@ -107,8 +111,8 @@ None of this is required reading, but all of it is part of the wider landscape i
 - **Programming Languages for Data Science and AI:**   
   - [Programmatically interpretable reinforcement learning](https://blog.acolyer.org/2020/01/15/programmatically-interpretable-reinforcement-learning/). The main idea is to improve interpretability by learning expressions in a domain specific language representing expert knowledge. Could that be combined with theorem proving as in the approach of [Ganesalingam and Gowers](https://arxiv.org/pdf/1309.4501.pdf)?
   - Differential Programming and Probabilistic Programming Languages are two quickly growing fields. I plan to add references over time (but I might forget):
-    - Conal Elliott: [Efficient automatic differentiation made easy via category theory](https://www.youtube.com/watch?v=17gfCTnw6uE).
-    - Vakar, Kammar, Staton: [A Domain Theory for Statistical Probabilistic Programming](https://arxiv.org/pdf/1811.04196.pdf). We do not cover enough theory in the course to understand this paper. But reading the introduction shows that the basic principles we will learn about underpin cutting edge research on novel programming languages that allows us not just to do numerical calculations and simulations but to **directly build and manipulate the underlying mathematical models**.
+    - Conal Elliott investigate in [Efficient automatic differentiation made easy via category theory](https://www.youtube.com/watch?v=17gfCTnw6uE) whether **differentiation of functions can be added  as an operation to functional programming languages such as Haskell**. In [A Functional Reboot for Deep Learning](https://github.com/conal/talk-2018-deep-learning-rebooted#readme) he goes further and argues that we should program machine learning algorithms in a programming language that does have differentiation but *hides neural networks, layers, and backpropagation as implementation details*. This might allow us, for example, to use a larger variety of functions for learning and thus reduce the complexity of the neural networks. A hint at the technicalities is given after [23:45](https://www.youtube.com/watch?v=Ns3DxUeCvRg#t=23m45s).
+    - Vakar, Kammar, Staton: [A Domain Theory for Statistical Probabilistic Programming](https://arxiv.org/pdf/1811.04196.pdf). We do not cover enough theory in the course to understand this paper. But reading the introduction shows that the basic principles we will learn about underpin cutting edge research on novel programming languages that allows us not just to do numerical calculations and simulations but to **directly build and manipulate the underlying statistical models**. 
 
 - Video: [Modelling Pandemics in Julia](https://www.youtube.com/watch?v=7zr2qnud4XM&feature=youtu.be) features many of the topics that appear in our course. 
 
@@ -133,7 +137,7 @@ None of this is required reading, but all of it is part of the wider landscape i
   - Robin Milner. [Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/151233.151240).
   - [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey), the creator of Clojure, says "State is Never Simple" in [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/) at 31m35s and following. The morale is: It is easier not to complect if coding in a functional language. Memorable quotes: "By stateful I mean that every time you ask the same question you get a different answer." "I don't know,I don't want to know." "Represent data by data." "Easy is not simple."
 
-  - [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup), the creator of C++, talks about [The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err). 
+  - [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup), the creator of C++, talks about [The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err). Historically interesting is also his talk about [The Design of C++](https://www.youtube.com/watch?v=69edOm889V4) from 1994.
 
   - [Simon Peyton Jones](https://en.wikipedia.org/wiki/Simon_Peyton_Jones), one of the inventors of Haskell, talks about [Functional Programming Languages and the Pursuit of Laziness](https://www.youtube.com/watch?v=SqWDAo1Jnyc). 
 
