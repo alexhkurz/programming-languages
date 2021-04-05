@@ -6,7 +6,7 @@ You already know some programming languages (such as Python, Java, or C++) and y
 
 After this course you should be able to develop your own small programming language. We will learn how to define the syntax of a programming language using a context-free grammar, how to use a parser generator and how to write an interpreter by recursion on abstract syntax.
 
-Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. (The challenge consists in extracting from the input string the relevant information about numbers, operations and order of operations.) Our second example, will be the smallest proper programming language, lambda calculus. Finally, we extend lambda calculus to a mixed-paradigm language including higher-order functions, recursion, assignments, loops, pointers, and arrays.
+Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. (The challenge consists in extracting from the input string the relevant information about numbers, operations and order of operations. For example, as you will remember from high-school algebra, the order of the operations in the input string can be very different from the order in which you have to evaluate them.) Our second example, will be the smallest proper programming language, lambda calculus. For this we will need to learn more about variable binding and recursion. Finally, we extend lambda calculus to a mixed-paradigm language including higher-order functions, recursion, assignments, loops, pointers, and arrays.
 
 On the way, we will introduce various theoretical concepts that underpin Programming Languages and open windows to topics in programming languages research.
 
@@ -90,6 +90,10 @@ I would let the modern history of programming languages begin with Fortran and L
 
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
+(And thanks to everybody who contributed links.)
+
+- [Contravariant logging](https://www.youtube.com/watch?v=qzOQOmmkKEM&list=PLxxF72uPfQVTfDksvV4KPV5CxKnf0d_X3#t=25m20s). Logging can be pain ("low to weight ratio"). Starting at 25:23, this talk explains how to do logging with a minimal interface. The basic explanation of how to do "simple oneline tracing" is finished by 31:47. 
+
 - Why does GoLang have objects but no inheritance?
 
 - What makes a programming language successful? This question is discussed in the video [Why Isn't Functional Programming the Norm?](https://www.youtube.com/watch?v=QyJZzq0v7Z4) He concludes with several arguments why FP might be the norm in the future for example searching for books on ["functional programming in"](https://www.amazon.com/s?k=%22functional+programming+in%22&ref=nb_sb_noss_2) suggests that many imperative and OO languages are keen on jumping on the FP train. What do you think?
@@ -133,6 +137,8 @@ None of this is required reading, but all of it is part of the wider landscape i
 ## Pioneers of Programming Languages 
 
 (send me your favourite links to add):
+
+  - Documentary about [John von Neumann](https://www.youtube.com/watch?v=Y2jiQXI6nrE) containing footage of the computer JvN had built in the 1940ies. [Adventures of a Mathematician](https://archive.org/details/adventuresofmath0000ulam) is a wonderful book about JvN by Stan Ulam, himself a legendary mathematician.
 
   - Robin Milner. [Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/151233.151240).
   - [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey), the creator of Clojure, says "State is Never Simple" in [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/) at 31m35s and following. The morale is: It is easier not to complect if coding in a functional language. Memorable quotes: "By stateful I mean that every time you ask the same question you get a different answer." "I don't know,I don't want to know." "Represent data by data." "Easy is not simple."

@@ -1,12 +1,14 @@
 ## Overview 
 
+Together with Compiler Construction this course is the first one of a pair of courses in which we are going to learn the basic theory and practice of designing and implementing a programming language.
+
 #### Summary
 
 The course will have a practical and a theoretical component.
 
-- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages. These will include some of the basics of logic, rewriting, ordered structures, universal algebra, and category theory (type theory will be deferred to next semester's course on compiler construction). Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.
+- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages. These will include some of the basics of logic, rewriting, ordered structures, universal algebra, and category theory (type theory will be deferred to next semester's course on compiler construction). Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research. I made a [list of theoretical concepts](theory.md) that appear regularly in programming languages blogs and which we will learn about something. 
 
-- *The practical component* will be about building interpreters for small programming languages. We will start with a calculutor, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Thus, once we have an interpreter for lambda caclulus, we will approximate more realistic programming languages by extending lambda calculus: conditionals, recursion, data types, assignment, while loops, addresses (pointers), memory allocation, dereferencing, arrays. There will be room for invention and adventure if you feel like it. But there will also be many guided exercises.
+- *The practical component* will be about building interpreters for small programming languages. We will start with a calculator, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Thus, once we have an interpreter for lambda caclulus, we will approximate more realistic programming languages by extending lambda calculus: conditionals, recursion, data types, assignment, while loops, addresses (pointers), memory allocation, dereferencing, arrays. There will be room for invention and adventure if you feel like it. But there will also be many guided exercises.
 
 #### Detailed Description
 

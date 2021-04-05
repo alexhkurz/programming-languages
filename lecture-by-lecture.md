@@ -27,6 +27,7 @@ Videos:
   - [Precedence levels in CFGs](https://youtu.be/jf1xhZSpCvg)  
   - [Uniqueness of parse trees](https://youtu.be/3ZLkPwB_c9g) 
 
+In this part we only look at small grammars. Writing a grammar for a mainstream programming language is a difficult, but very interesting task. It contains important lessons about software engineering and even the scientific method in general. We will look at this in detail in next semester's class on Compiler Construction. (If you are interested in a quick preview of the assignment on parsing, we will start from this [grammar for a fragment of C++](https://github.com/alexhkurz/compiler-construction-2021/blob/master/Sources/Cpp/Cpp.cf) and then add the features as described in this [language specification](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html).)
 
 ### Part 2: Semantics of Programming Languages (2)
 
