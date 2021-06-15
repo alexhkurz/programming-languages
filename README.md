@@ -10,20 +10,13 @@ Our first programming language will just be high-school arithmetic and the inter
 
 On the way, we will introduce various theoretical concepts that underpin Programming Languages and open windows to topics in programming languages research.
 
-**Notes and Materials** for a course on Programming Languages at Chapman University.
-
-- [Syllabus](syllabus.md)  
-- [Overview](overview.md)  
-- [Contact](contact.md)  
+We will also have the opportunity to touch on philosophical questions such as "What is Computation?", "What is Meaning?", "What is Information?", "What is an Algorithm?" and discuss whether it is possible to give a precise and satisfactory answer.
 
 **Quick links:**
 
 - [Lecture by Lecture](lecture-by-lecture.md)  
-- [Discussion Forum](discussion-forum.md)  
 - [Assignments](assignments.md)
-- [Blog](blog.md)
 - [On the Use of Git](git-best-practices.md)
-- [Extra Credit](extra-credit.md)
 - [Relationship to Other Courses](other-courses.md)
 
 
@@ -91,6 +84,8 @@ I would let the modern history of programming languages begin with Fortran and L
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
 (And thanks to everybody who contributed links.)
+
+- [AsciiDots](https://esolangs.org/wiki/AsciiDots). "AsciiDots is an esoteric programming language based on ascii art." I didn't look into this but I like the idea of developing small programming languages not so much for a practical purpose but rather as a computer-art project. Any ideas? Get in touch ...
 
 - [Contravariant logging](https://www.youtube.com/watch?v=qzOQOmmkKEM&list=PLxxF72uPfQVTfDksvV4KPV5CxKnf0d_X3#t=25m20s). Logging can be pain ("low to weight ratio"). Starting at 25:23, this talk explains how to do logging with a minimal interface. The basic explanation of how to do "simple oneline tracing" is finished by 31:47. 
 
